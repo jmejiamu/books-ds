@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		
+	
 		Book books = new Book();
 		books.head = new ListNode("Java");
 		
@@ -23,6 +23,8 @@ public class Main {
 		fourthdBook.next = fithBook;
 		
 		books.display();
+		
+		System.out.println("You have " + books.findLength() + " in Stack");
 	}
 
 }
